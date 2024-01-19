@@ -8,7 +8,7 @@ const ServerIdLayout = async ({children,
     params,
 }: {
     children: React.ReactNode;
-    params: {serverId: string};
+    params: { serverId: string };
 }) => {
     const profile =  await currentProfile();
     if(!profile)
