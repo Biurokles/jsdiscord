@@ -22,7 +22,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import { url } from "inspector";
 const roleIconMap = {
-    "GUEST": "null",
+    "GUEST": null,
     "MODERATOR": <ShieldCheck className="h-4 w-4 ml-2 text-indigo-500"/>,
     "ADMIN": <ShieldAlert className="h-4 w-4 text-rose-500"/>
 }
